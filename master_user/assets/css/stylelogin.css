@@ -1,0 +1,94 @@
+body {
+	font-family: sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	max-width: 400px;
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+}
+form {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+	display: block;
+	margin-bottom: 8px;
+	margin-top: 5px;
+	color: #333;
+}
+
+input {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 8px;
+	box-sizing: border-box;
+}
+.click_login_button {
+	display: block;
+	width: 100%;
+	/* margin-top: 10px; */
+	padding: 8px;
+	background-color: #4caf50;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+}
+.click_login_button:hover {
+	background-color: #45a049;
+}
+
+.click_login_button_registered_akun {
+	display: block;
+	width: 100%;
+	/* margin-top: 10px; */
+	padding: 8px;
+	background-color: #4caf50;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+}
+.register_akun_button {
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	margin-top: 10px;
+	font-size: 14px;
+}
+.text-danger {
+	color: red;
+	text-align: center;
+	font-size: 13px;
+	padding: 0px;
+	margin-bottom: 10px;
+}
+.alert-flashdata {
+	color: red;
+	text-align: center;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+.alert-flashdata-registered {
+	color: blue;
+	text-align: center;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
